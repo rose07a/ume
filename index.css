@@ -1,3 +1,5 @@
+/*General Styles*/
+
 * {
 	margin: 0;
 	padding: 0;
@@ -73,6 +75,7 @@ section {
 	justify-content: center;
 	width:100%;
 }
+
 .slides img{
 	height: 380px;
 	background-clip: content-box;
@@ -190,7 +193,7 @@ header img{
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-size: 100% 100%;
+	background-size: cover;
 	z-index: -1;
 }
 
@@ -239,13 +242,18 @@ header img{
 		margin: 20px;
 		padding: 20px 20px;
 	}
+
+	.hero .background-image{
+		background-size: cover;
+		background-position:center;
+	}
 }
 
 /*Destinations Section*/
 
 .destinations .grid li {
-	height: 380px;
-	padding: 10px;
+	height: 350px;
+	padding: 5px;
 	background-clip: content-box;
 	background-size: 100% 100%;
 	background-position: center;
@@ -259,6 +267,16 @@ header img{
 .destinations .grid li {
 	flex-basis: 30%;
 }
+
+.destinations .grid .nostretch{
+	height: 350px;
+	padding: 5px;
+	background-clip: content-box;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
 
 @media (max-width: 1100px) {
 	.destinations .grid li {
