@@ -37,6 +37,7 @@ a.btn {
 	opacity: 1;
 }
 
+
 a.btn:hover{
 	box-shadow: 2px 4px #000;
   }
