@@ -34,7 +34,7 @@ a.btn {
 	font-weight: bold;
 	text-align: center;
 	background-color: #000;
-	opacity: 1;
+	opacity: 0.8;
 }
 
 
@@ -411,7 +411,6 @@ footer p {
             width: 100%;
             position: absolute;
             margin:0;
-
         }
 
 .slider_item {
@@ -429,14 +428,14 @@ footer p {
             transform: scale(0.9);
         }
 .slider_item img {
-        	width: 100%;
+        	height: 100%;
         }
 
 .slider_item:nth-child(odd){
-            background-color:#fff;
+            background-color:#000;
         }
 .slider_item:nth-child(even){
-            background-color:#fff;
+            background-color:#000;
         }
 .showing{
             opacity: 1;
@@ -448,10 +447,13 @@ footer p {
 	.slider_item{
 		margin-top:70px;
 		height:600px;
+		background-position: center;
+        background-size: contain;
+
 	}
 
 	.slider_item img {
-        	/*width: 100%;*/
-        	height:600px;
+        background-position: center;
+        background-size: contain;
         }
 }
