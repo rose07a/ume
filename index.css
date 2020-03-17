@@ -94,7 +94,7 @@ section {
 @media (max-width: 800px) {
 	.slides{
 		width:100%;
-		height:200px;
+		height:250px;
 		margin:10px;
 		margin-bottom: 100px;
 	}
@@ -456,4 +456,13 @@ footer p {
         background-position: center;
         background-size: contain;
         }
+}
+
+
+.news strong{
+	color: #006400;
+}
+
+.pics{
+ background-color:#d3d3d3;
 }
